@@ -1,0 +1,14 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Runtime data
+.mc-tmp/
+.venv/
+__pycache__/
+*.pyc
+
+# OS Files
+.DS_Store
+Thumbs.db
