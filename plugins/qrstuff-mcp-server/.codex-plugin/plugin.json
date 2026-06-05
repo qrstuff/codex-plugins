@@ -1,0 +1,22 @@
+{
+  "name": "qrstuff-mcp-server",
+  "displayName": "QRStuff MCP Server",
+  "version": "0.1.0",
+  "description": "Adds the QRStuff MCP server to OpenAI Codex CLI",
+  "skills": "./skills/",
+  "author": {
+    "name": "QRStuff Team",
+    "email": "engineering@qrstuff.com"
+  },
+  "license": "MIT",
+  "keywords": [
+    "qrstuff",
+    "mcp",
+    "server",
+    "qrcg",
+    "qrcode",
+    "qrcode-generator",
+    "codex"
+  ],
+  "logo": "assets/logo.png"
+}

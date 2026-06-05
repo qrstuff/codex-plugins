@@ -1,0 +1,20 @@
+{
+  "name": "qrstuff-codex-plugins",
+  "displayName": "QRStuff Codex Plugins",
+  "owner": {
+    "name": "QRStuff Team",
+    "email": "engineering@qrstuff.com"
+  },
+  "metadata": {
+    "description": "A collection of plugins for the QRStuff platform on OpenAI Codex CLI",
+    "version": "0.1.0",
+    "pluginRoot": "plugins"
+  },
+  "plugins": [
+    {
+      "name": "qrstuff-mcp-server",
+      "source": "qrstuff-mcp-server",
+      "description": "Adds a MCP server for the QRStuff platform"
+    }
+  ]
+}
