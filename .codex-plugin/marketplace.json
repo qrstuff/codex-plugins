@@ -6,7 +6,7 @@
     "email": "engineering@qrstuff.com"
   },
   "metadata": {
-    "description": "A collection of plugins for the QRStuff platform on OpenAI Codex CLI",
+    "description": "Official QRStuff plugins for OpenAI Codex CLI. Connects the QRStuff MCP server so agents can generate, customize, and manage QR codes directly.",
     "version": "0.1.0",
     "pluginRoot": "plugins"
   },
@@ -14,7 +14,7 @@
     {
       "name": "qrstuff-mcp-server",
       "source": "qrstuff-mcp-server",
-      "description": "Adds a MCP server for the QRStuff platform"
+      "description": "Official QRStuff plugin for OpenAI Codex. Connects the QRStuff MCP server so agents can generate and manage QR codes."
     }
   ]
 }

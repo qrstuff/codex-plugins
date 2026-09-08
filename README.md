@@ -1,14 +1,19 @@
 # QRStuff OpenAI Codex Plugins
 
-A [Codex plugin marketplace](https://developers.openai.com/codex/mcp) that lets you install and configure the **QRStuff MCP server** in the OpenAI Codex CLI with a single command — no manual TOML editing required.
+Official OpenAI Codex plugin marketplace for [QRStuff](https://www.qrstuff.com/). Connects OpenAI Codex CLI agents directly to the hosted QRStuff MCP server to generate, customize, and manage 25+ dynamic and static QR code types and scan analytics with zero configuration.
+
+```bash
+codex marketplace add qrstuff/codex-plugins
+codex plugin install qrstuff-mcp-server@qrstuff-codex-plugins
+```
 
 ## What's in here
 
-This repository is a Codex marketplace (`qrstuff-codex-plugins`) that distributes a single plugin:
+This repository is a Codex marketplace (`qrstuff-codex-plugins`) that distributes:
 
 | Plugin               | Description                                                                                                                                                       |
 | :------------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `qrstuff-mcp-server` | Adds the QRStuff [MCP server](https://mcp.qrstuff.ai/mcp) to OpenAI Codex, giving Codex access to the QRStuff platform for QR code generation and scan analytics. |
+| `qrstuff-mcp-server` | Official QRStuff plugin for OpenAI Codex. Connects the QRStuff [MCP server](https://mcp.qrstuff.ai/mcp) to generate and manage QR codes and retrieve scan analytics. |
 
 When you install the plugin, Codex CLI registers the remote MCP server at `https://mcp.qrstuff.ai/mcp` for you.
 
